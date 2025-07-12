@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasnain Eye Care - Professional Eye Clinic</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-100 shadow-lg fixed w-full z-50 rounded-b-xl">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold text-blue-800 flex items-center drop-shadow-md">
+                Hasnain Eye Care 
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+            <ul id="nav-links" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mt-4 md:mt-0 items-center">
+                <li><a href="#home" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Home</a></li>
+                <li><a href="#about" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">About Dr. Hasnain</a></li>
+                
+                <!-- Services Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Services <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#cataract-eye-surgery-section">Cataract Eye Surgery</a>
+                        <a href="#comprehensive-eye-care-section">Comprehensive Eye Care</a>
+                        <a href="#corneal-surgery-section">Corneal Surgery</a>
+                        <a href="#corneal-transplant-section">Corneal Transplant</a>
+                        <a href="#diabetic-eye-care-section">Diabetic Eye Care</a>
+                    </div>
+                </li>
+
+                <!-- Conditions Treated Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Conditions Treated <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#diabetic-retinopathy-section">Diabetic Retinopathy</a>
+                        <a href="#glaucoma-section">Glaucoma</a>
+                        <a href="#macular-hole-section">Macular Hole</a>
+                        <a href="#ocular-trauma-section">Ocular Trauma</a>
+                        <a href="#retinal-detachment-section">Retinal Detachment</a>
+                    </div>
+                </li>
+
+                <li><a href="#glasses-store" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Glasses Store</a></li>
+                
+                <!-- Blog Link -->
+                <li><a href="#blog" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Blog</a></li>
+
+                <!-- Videos Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="text-blue-800 hover:text-blue-600 transition duration-300 px-3 py-2 rounded-md">Videos <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#meet-dr-hasnain-video">Meet Dr Hasnain Muhammad Bukhsh</a>
+                        <a href="#glasses-free-life-video">Glasses Free Life</a>
+                        <a href="#cured-pvd-rrd-video">Cured PVD and RRD Through LIFE CHANGING Vitrectomy Surgery</a>
+                        <a href="#future-vision-video">The Future of Vision: Hasnain Eye Care's Surgical Revolution</a>
+                        <a href="#welcome-clinic-video">Welcome to Hasnain Eye & Retina Care.... #eyecareclinic</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-gradient-button">
+                        Book Appointment
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section (Solid Dark Blue Background) -->
+    <section id="home" class="relative flex items-center justify-start h-screen overflow-hidden text-white pt-16">
+        <!-- Hero Background Image -->
+        <div class="absolute inset-0">
+            <img src="https://i.imghippo.com/files/VWLg4833gHg.jpeg" alt="Main entrance of Hasnain Eye Care clinic with wide glass doors and a teal sign reading Hasnain Eye Care in large white letters. The modern building is illuminated by sunlight, surrounded by green trees and neatly trimmed bushes, creating a welcoming and professional atmosphere." class="w-full h-full object-cover object-center" style="background: transparent; filter: none; image-rendering: auto;" loading="eager" />
+            <div class="absolute inset-0 bg-blue-900 bg-opacity-10"></div>
+            <!-- Corrected overlay class names and removed typo overlays -->
+            <div class="absolute inset-0 bg-blue-900 bg-opacity-30"></div>
+            <!-- Removed invalid bg-white-900bg-opacity-60 overlay -->
+        </div>
+        <div class="relative z-10 text-left p-6 md:ml-16">
+            <p class="text-sm md:text-base font-medium mb-4 uppercase tracking-wider animated-welcome opacity-0">Welcome To Hasnain Eye Care</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg animated-heading leading-tight opacity-0">Providing the Best Eye Care Solutions</h1>
+    <h1>Welcome</h1>
+    
+</body>
+            <p class="text-lg md:text-xl font-light mb-8 drop-shadow-lg animated-subheading opacity-0">We See what matters to you</p>
+            <div class="flex justify-center mt-8">
+                <a href="#contact" class="homepage-gradient-button animated-button opacity-0">
+                    Appointment
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Dr. Hasnain Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">About Dr. Hasnain Muhammad Buksh</h2>
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+                <div class="md:w-1/3 flex justify-center p-4">
+                    <!-- Doctor's image managed in an attractive box -->
+                    <div class="doctor-image-box">
+                        <img src="https://i.ibb.co/z321sBz/clinic-exterior.jpg" alt="Dr Hasnain Muhammad Buksh seated in a well-lit clinic office, wearing a white coat and smiling warmly at the camera. Behind him are medical certificates on the wall and ophthalmology equipment, creating a professional and welcoming environment. The atmosphere is calm and reassuring." class="rounded-lg object-cover w-full h-auto">
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <!-- Doctor's information managed in an attractive box -->
+                    <div class="doctor-info-box">
+                        <p class="mb-4">Dr. Hasnain Muhammad Buksh is an expert Eye Specialist and Eye Surgeon with over 15 years of extensive experience in his field.</p>
+                        <p class="mb-4">He is dedicated to providing comprehensive eye care and treating a wide range of ocular conditions with advanced techniques and compassionate service.</p>
+                        <p class="mb-6">You can book an appointment with Dr. Hasnain Muhammad Buksh by calling at <span class="font-semibold text-blue-600">03084531750</span>.</p>
+
+                        <h3 class="text-2xl font-semibold text-blue-700">Qualifications</h3>
+                        <ul class="mb-6 space-y-2">
+                            <li>M.B.B.S. - University of Health Sciences Lahore, 2012</li>
+                            <li>F.C.P.S. (Ophthalmology) - College of Physicians and Surgeons, 2018</li>
+                            <li>F.C.P.S (VITRO RETINA) - College of Physicians and Surgeons Pakistan, 2019</li>
+                             <li>F.R.C.S (Glasgow) - Royal College of surgeons,Glasgow,Uk</li>
+                            <li>MRCSed - University of Edinburgh College of Surgeons , United Kingdom, 2018</li>
+                            <li>F.I.C.O (UK) - International Council of Ophthalmology, United Kingdom, 2019</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-semibold text-blue-700">Professional Memberships</h3>
+                        <ul class="mb-6 space-y-2">
+                            <li>Pakistan Medical Medical Commission (PMC)</li>
+                            <li>Ophthalmic Society of Pakistan</li>
+                        </ul>
+                        </ul>
+
+                        <h3 class="2xl font-semibold text-blue-700">Practice Location & Availability</h3>
+                        <ul class="mb-6 space-y-2">
+                            <li><strong>Clinic:</strong> Hasnain Eye & Retina Care Laser Centre</li>
+                            <li><strong>Days:</strong> Monday to Saturday</li>
+                            <li><strong>Time:</strong> 05:00 PM - 09:00 PM</li>
+                            <li><strong>Fees:</strong> Rs. 2,500 for appointments.</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-semibold text-blue-700">Patient Feedback</h3>
+                        <p class="mb-4">Dr. Hasnain Muhammad Buksh has an outstanding <span class="font-bold text-blue-600">98% patient satisfaction score</span> with <span class="font-bold text-blue-600">410 verified patient reviews</span>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New section with icons and text -->
+            <div class="mt-16 pt-8 border-t border-gray-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="feature-icon-box">
+                    <div class="icon-circle">
+                        <i class="fas fa-user-md"></i> <!-- Doctor icon -->
+                    </div>
+                    <p>Qualified Doctors</p>
+                </div>
+                <div class="feature-icon-box">
+                    <div class="icon-circle">
+                        <i class="fas fa-bed"></i> <!-- Medical bed/check-up icon -->
+                    </div>
+                    <p>Best Eye Check-up Services</p>
+                </div>
+                <div class="feature-icon-box">
+                    <div class="icon-circle">
+                        <i class="fas fa-microscope"></i> <!-- Microscope icon for testing -->
+                    </div>
+                    <p>Accurate Testing</p>
+                </div>
+                <div class="feature-icon-box">
+                    <div class="icon-circle">
+                        <i class="fas fa-lightbulb"></i> <!-- Lightbulb or another relevant icon for laser machines -->
+                    </div>
+                    <p>Advance Laser Machines</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Offered Section -->
+    <section id="services" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">Services Offered</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Original 5 services with updated IDs for navigation linking -->
+                <div id="cataract-eye-surgery-section" class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-eye-dropper"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Cataract Eye Surgery (موتیا کی آنکھ کی سرجری)</h3>
+                    <p class="text-gray-700 text-center">Advanced surgical procedures for effective cataract removal and vision restoration.</p>
+                </div>
+                <div id="comprehensive-eye-care-section" class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-notes-medical"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Comprehensive Eye Care (جامع آنکھوں کی دیکھ بھال)</h3>
+                    <p class="text-gray-700 text-center">Complete eye examinations, vision testing, and general eye health management.</p>
+                </div>
+                <div id="corneal-surgery-section" class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-cut"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Corneal Surgery (کورنل سرجری)</h3>
+                    <p class="text-gray-700 text-center">Specialized surgical interventions for corneal conditions and diseases.</p>
+                </div>
+                <div id="corneal-transplant-section" class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-hand-holding-medical"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Corneal Transplant (کورنل ٹرانسپلانٹ)</h3>
+                    <p class="text-gray-700 text-center">Expert procedures for corneal transplantation to restore vision.</p>
+                </div>
+                <div id="diabetic-eye-care-section" class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-heartbeat"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Diabetic Eye Care (ذیابیطس آنکھوں کی دیکھ بھال)</h3>
+                    <p class="text-gray-700 text-center">Dedicated care and management for eye conditions related to diabetes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conditions" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">Conditions Treated</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div id="diabetic-retinopathy-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-diabetes"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Diabetic Retinopathy (ذیابیطس کی وجہ سے بینائی کم ہونا)</h3>
+                    <p class="text-gray-700 text-center">Diagnosis and treatment for vision impairment caused by diabetes.</p>
+                </div>
+                <div id="glaucoma-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Glaucoma (کالا موتیا)</h3>
+                    <p class="text-gray-700 text-sm">Management and treatment of glaucoma to preserve vision.</p>
+                </div>
+                <div id="macular-hole-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-crosshairs"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Macular Hole (میکیولر ہول)</h3>
+                    <p class="text-gray-700 text-center">Surgical and non-surgical approaches to treat macular holes.</p>
+                </div>
+                <div id="ocular-trauma-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-fist-raised"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Ocular Trauma (آنکھ کی چوٹ)</h3>
+                    <p class="text-gray-700 text-center">Emergency and long-term care for eye injuries.</p>
+                </div>
+                <div id="retinal-detachment-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-eye"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Retinal Detachment (پردہ چشم کا الگ ہوجانا)</h3>
+                    <p class="text-gray-700 text-sm">Urgent treatment for retinal detachment to prevent vision loss.</p>
+                </div>
+                 <div id="retinal-detachment-section" class="bg-blue-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-blue-600 text-5xl mb-4 text-center"><i class="fas fa-eye"></i></div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4 text-center">Medical & Surgical Retina</h3>
+                    <p class="text-gray-700 text-sm"> Diabetic Retinal Discassce</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="glasses-store" class="py-16 bg-blue-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">Our Exclusive Glasses Store</h2>
+
+            <!-- This wrapper controls which view is visible -->
+            <div id="glasses-store-views">
+                <!-- Shop By Category Layout - Main View -->
+                <div id="shop-by-category-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <!-- Men's Eyeglasses -->
+                    <div class="category-box" data-category="men">
+                        <img src="https://i.postimg.cc/QdT2S13r/Gemini-Generated-Image-jdfx7qjdfx7qjdfx.png" alt="Men's Eyeglasses">
+                        <div class="category-box-overlay">
+                            <span class="category-box-title">Men's Eyeglasses</span>
+                        </div>
+                    </div>
+                    <!-- Women's Eyeglasses -->
+                    <div class="category-box" data-category="women">
+                        <img src="https://i.postimg.cc/zBGFKt3X/Gemini-Generated-Image-vlqajvlqajvlqajv-1.png" alt="Women's Eyeglasses">
+                        <div class="category-box-overlay">
+                            <span class="category-box-title">Women's Eyeglasses</span>
+                        </div>
+                    </div>
+                    <!-- Kid's Eyeglasses -->
+                    <div class="category-box" data-category="children">
+                        <img src="https://i.postimg.cc/90BfjhGc/Gemini-Generated-Image-9v7fj89v7fj89v7f.png" alt="Kid's Eyeglasses">
+                        <div class="category-box-overlay">
+                            <span class="category-box-title">Kid's Eyeglasses</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Shop By Category Layout -->
+
+                <!-- Detailed Product Page - Initially Hidden -->
+                <div id="detailed-product-page" class="hidden">
+                    <button onclick="window.location.hash='#glasses-store-home'" class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition duration-300 mb-6">
+                        <i class="fas fa-arrow-left mr-2"></i> Back to Categories
+                    </button>
+
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <!-- Filters Column -->
+                        <div id="product-filters" class="md:w-1/4 bg-white p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-semibold text-blue-800 mb-4">Filters</h3>
+                            
+                            <div class="mb-4">
+                                <label for="price-filter" class="block text-gray-700 font-semibold mb-2">Price Range:</label>
+                                <select id="price-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="0-1000">Below Rs. 1,000</option>
+                                    <option value="1000-3000">Rs. 1,000 - Rs. 3,000</option>
+                                    <option value="3000-5000">Rs. 3,000 - Rs. 5,000</option>
+                                    <option value="5000-above">Rs. 5,000 & Above</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="color-filter" class="block text-gray-700 font-semibold mb-2">Colors:</label>
+                                <div id="color-options" class="flex flex-wrap gap-2">
+                                    <input type="checkbox" id="color-black" value="black" class="hidden color-checkbox">
+                                    <label for="color-black" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-center" style="background-color: black;" title="Black"></label>
+                                    <input type="checkbox" id="color-blue" value="blue" class="hidden color-checkbox">
+                                    <label for="color-blue" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-center" style="background-color: blue;" title="Blue"></label>
+                                    <input type="checkbox" id="color-red" value="red" class="hidden color-checkbox">
+                                    <label for="color-red" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-center" style="background-color: red;" title="Red"></label>
+                                    <input type="checkbox" id="color-brown" value="brown" class="hidden color-checkbox">
+                                    <label for="color-brown" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-content-center" style="background-color: brown;" title="Brown"></label>
+                                    <input type="checkbox" id="color-clear" value="clear" class="hidden color-checkbox">
+                                    <label for="color-clear" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-content-center" style="background-color: transparent;" title="Clear"></label>
+                                    <input type="checkbox" id="color-gold" value="gold" class="hidden color-checkbox">
+                                    <label for="color-gold" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-content-center" style="background-color: gold;" title="Gold"></label>
+                                    <input type="checkbox" id="color-silver" value="silver" class="hidden color-checkbox">
+                                    <label for="color-silver" class="w-8 h-8 rounded-full cursor-pointer border-2 border-gray-300 flex items-center justify-content-center" style="background-color: silver;" title="Silver"></label>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="gender-filter" class="block text-gray-700 font-semibold mb-2">Gender:</label>
+                                <select id="gender-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="men">Men</option>
+                                    <option value="women">Women</option>
+                                    <option value="children">Children</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="material-filter" class="block text-gray-700 font-semibold mb-2">Material:</label>
+                                <select id="material-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="metal">Metal</option>
+                                    <option value="plastic">Plastic</option>
+                                    <option value="titanium">Titanium</option>
+                                    <option value="acetate">Acetate</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="frame-type-filter" class="block text-gray-700 font-semibold mb-2">Frame Type:</label>
+                                <select id="frame-type-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="full-rim">Full-Rim</option>
+                                    <option value="semi-rimless">Semi-Rimless</option>
+                                    <option value="rimless">Rimless</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="mirror-option-filter" class="block text-gray-700 font-semibold mb-2">Mirror Option:</label>
+                                <select id="mirror-option-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="frame-size-filter" class="block text-gray-700 font-semibold mb-2">Frame Size:</label>
+                                <select id="frame-size-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="extra-large">Extra Large</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="prescription-type-filter" class="block text-gray-700 font-semibold mb-2">Prescription Type:</label>
+                                <select id="prescription-type-filter" class="w-full p-2 border border-gray-300 rounded-md">
+                                    <option value="all">All</option>
+                                    <option value="distance">Distance</option>
+                                    <option value="near">Near</option>
+                                    <option value="bifocals">Bifocals</option>
+                                    <option value="progressive">Progressive</option>
+                                </select>
+                            </div>
+
+                            <button id="apply-filters" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300 w-full">Apply Filters</button>
+                        </div>
+
+                        <!-- Products Display Column -->
+                        <div class="md:w-3/4">
+                            <div id="filtered-glasses-display" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <!-- Filtered glasses will be dynamically loaded here -->
+                            </div>
+                            <p id="no-results-message" class="text-center text-gray-600 mt-8 hidden">No glasses found matching your criteria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Detailed Product Page -->
+
+            <!-- AI Style Advisor Modal -->
+            <div id="ai-style-advisor-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center p-4 z-50 hidden">
+                <div class="bg-white rounded-lg p-8 max-w-xl w-full relative">
+                    <button class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold" onclick="document.getElementById('ai-style-advisor-modal').classList.add('hidden')">
+                        &times;
+                    </button>
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">AI Style Advisor ✨</h3>
+                    <p class="text-gray-700 mb-4">Apni pasand, chehre ka akaar ya mauke ke mutabiq chashmon ki shaili ke baare mein sawaal puchain:</p>
+                    <textarea id="ai-query-input" class="w-full p-3 border border-gray-300 rounded-md mb-4" rows="4" placeholder="Masalan: 'oval chehre ke liye daily use ke frames', ya 'shadi ke liye modern sunglasses'"></textarea>
+                    <button id="get-ai-advice-button" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition duration-300 w-full">
+                        Get Advice
+                    </button>
+                    <div id="ai-advice-loading" class="text-center text-blue-600 mt-4 hidden">
+                        <i class="fas fa-spinner fa-spin mr-2"></i> Loading advice...
+                    </div>
+                    <div id="ai-advice-output" class="bg-gray-100 p-4 rounded-md mt-4 hidden text-gray-800">
+                        <!-- AI advice will be displayed here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Old tab buttons (hidden) and other irrelevant content from original Glasses Store sections -->
+            <div id="old-tabs" class="flex justify-center mb-8 hidden">
+                <button class="tab-button bg-blue-600 text-white font-semibold py-3 px-6 rounded-l-full shadow-md hover:bg-blue-700 transition duration-300" data-category="children">Children</button>
+                <button class="tab-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 shadow-md hover:bg-gray-300 transition duration-300" data-category="women">Women</button>
+                <button class="tab-button bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-r-full shadow-md hover:bg-gray-300 transition duration-300" data-category="men">Men</button>
+            </div>
+
+            <div id="children-glasses-content" class="text-center mb-8 hidden">
+                </div>
+
+            <div id="glasses-display" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-12 hidden">
+                </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
+                <h3 class="text-2xl font-semibold text-blue-700 mb-6 text-center">Order Your Prescription Glasses</h3>
+                <p class="text-gray-700 text-center mb-6">Please upload your refractive card and provide details to order your custom glasses. After submission, our team will contact you for payment via JazzCash (03084531750).</p>
+
+                <form id="refractive-card-form" class="space-y-6">
+                    <div>
+                        <label for="refractive-card-upload" class="block text-gray-700 text-sm font-bold mb-2">Upload Refractive Card Image (Optional):</label>
+                        <input type="file" id="refractive-card-upload" accept="image/*" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <div id="image-preview" class="mt-4 flex justify-center"></div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="font-semibold text-blue-600 mb-2">Right Eye (OD)</h4>
+                            <label for="od-sphere" class="block text-gray-700 text-sm font-bold mb-1">Sphere (SPH)</label>
+                            <input type="text" id="od-sphere" placeholder="+2.00" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="od-cylinder" class="block text-gray-700 text-sm font-bold mb-1">Cylinder (CYL)</label>
+                            <input type="text" id="od-cylinder" placeholder="-1.50" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="od-axis" class="block text-gray-700 text-sm font-bold mb-1">Axis (AX)</label>
+                            <input type="text" id="od-axis" placeholder="90" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="od-add" class="block text-gray-700 text-sm font-bold mb-1">Add (ADD)</label>
+                            <input type="text" id="od-add" placeholder="+1.00 (Optional)" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold text-blue-600 mb-2">Left Eye (OS)</h4>
+                            <label for="os-sphere" class="block text-gray-700 text-sm font-bold mb-1">Sphere (SPH)</label>
+                            <input type="text" id="os-sphere" placeholder="+1.75" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="os-cylinder" class="block text-gray-700 text-sm font-bold mb-1">Cylinder (CYL)</label>
+                            <input type="text" id="os-cylinder" placeholder="-1.00" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="os-axis" class="block text-gray-700 text-sm font-bold mb-1">Axis (AX)</label>
+                            <input type="text" id="os-axis" placeholder="180" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2">
+
+                            <label for="os-add" class="block text-gray-700 text-sm font-bold mb-1">Add (ADD)</label>
+                            <input type="text" id="os-add" placeholder="+1.00 (Optional)" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="customer-name" class="block text-gray-700 text-sm font-bold mb-2">Your Full Name:</label>
+                        <input type="text" id="customer-name" placeholder="John Doe" required class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="customer-phone" class="block text-gray-700 text-sm font-bold mb-2">Your Phone Number (for contact):</label>
+                        <input type="tel" id="customer-phone" placeholder="e.g., 03XX-XXXXXXX" required class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="customer-address" class="block text-gray-700 text-sm font-bold mb-2">Your Address (Optional):</label>
+                        <textarea id="customer-address" rows="3" placeholder="Street, City, Postal Code" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                            Submit Order Request
+                        </button>
+                    </div>
+                </form>
+                <div id="order-message" class="mt-6 p-4 rounded-lg text-center hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">Clinic Insights & Vision Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div id="meet-dr-hasnain-video" class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/XHhEiMJo-C8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Meet Dr Hasnain Muhammad Bukhsh</h3>
+                    <p class="text-gray-700 text-sm">A brief introduction to Dr. Hasnain Muhammad Bukhsh.</p>
+                </div>
+                <div id="glasses-free-life-video" class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/vu8Q2kVy7qw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Glasses Free Life</h3>
+                    <p class="text-gray-700 text-sm">A video explaining the process of cataract eye surgery.</p>
+                </div>
+                <div id="cured-pvd-rrd-video" class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/OtBY4Tm-IcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Cured PVD and RRD Through LIFE CHANGING Vitrectomy Surgery</h3>
+                    <p class="text-gray-700 text-sm">A video showcasing the life-changing results of Vitrectomy Surgery for PVD and RRD.</p>
+                </div>
+                <div id="future-vision-video" class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/vSTaCsH2tCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">The Future of Vision: Hasnain Eye Care's Surgical Revolution</h3>
+                    <p class="text-gray-700 text-sm">Exploring advanced surgical techniques at Hasnain Eye Care.</p>
+                </div>
+                <div id="welcome-clinic-video" class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                        <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/01iUBen4TfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Welcome to Hasnain Eye & Retina Care.... #eyecareclinic</h3>
+                    <p class="text-gray-700 text-sm">A welcoming introduction to Hasnain Eye & Retina Care clinic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-blue-800 section-heading">Contact Us & Book Appointment</h2>
+            <div class="max-w-2xl mx-auto bg-blue-50 p-8 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-around gap-8">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-4">Hasnain Eye & Retina Care Laser Centre</h3>
+                    <p class="text-gray-700 mb-2"><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> 188/2, Block H Model Town, Lahore</p>
+                    <p class="text-gray-700 mb-2"><i class="fas fa-phone mr-2 text-blue-600"></i> 03084531750</p>
+                    <p class="text-gray-700 mb-2"><i class="fas fa-envelope mr-2 text-blue-600"></i> hasnaineyeretinacareeyelaserce@gmail.com</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-700 text-lg mb-4">Ready to schedule your appointment?</p>
+                    <a href="tel:03084531750" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition duration-300 shadow-md">
+                        Call to Book Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/923084531750" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Hasnain Eye Care. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-facebook-f text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-tiktok text-xl"></i></a> 
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-instagram text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
